@@ -1,0 +1,26 @@
+
+body {
+    background-color: pink;
+}
+
+h1 {
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 100;
+  letter-spacing: .2cm;
+}
+
+h2 {
+   font-family: 'Bricolage Grotesque', sans-serif;
+   font-size: 45px;
+}
+
+p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight:900;
+    font-size: 28px;
+}
+
+i {
+    font-size: 50px;
+}
