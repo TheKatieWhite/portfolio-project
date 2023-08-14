@@ -1,77 +1,163 @@
 :root {
-    --primary-color: rgb(249, 234, 215);
-    --secondary-color: rgb(247, 202, 215);
-    --highlight-color: #F6F3FF;
-    --heading-font-family: 'Bricolage Grotesque', sans-serif;
-    --default-font-family: 'Josefin Sans', sans-serif;
+  --primary-color: rgb(249, 234, 215);
+  --secondary-color: rgb(247, 202, 215);
+  --highlight-color: #f6f3ff;
+  --heading-font-family: "Bricolage Grotesque", sans-serif;
+  --default-font-family: "Josefin Sans", sans-serif;
+}
 
+.container-fluid {
+  max-width: 800px;
+  min-width: 600px;
 }
 
 .navbar {
-    background-color: var(--primary-color);
-    text-align: right;
-   
+  background-color: var(--primary-color);
+  text-align: right;
 }
 
 .navbar-brand {
   color: black;
   font-family: var(--default-font-family);
   font-weight: 100;
-  letter-spacing: .2cm;
-
+  letter-spacing: 0.2cm;
 }
 
 .nav-link.active {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .nav-item {
-    font-family: var(--default-font-family);
-    
+  font-family: var(--default-font-family);
 }
-
 
 body {
-    background-color: var(--secondary-color);
+  background-color: var(--secondary-color);
 }
 
-.intro {
-    background-color: var(--highlight-color);
-    padding: 10px;
-    text-align: center;
-    margin-top: 70px;
-    border-radius: 4px;
-    
+.header {
+  background-color: var(--highlight-color);
+  padding: 10px;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  opacity: 85%;
 }
 
 h1 {
-  
   color: grey;
-  font-family: var(--default-font-family);;
+  font-family: var(--default-font-family);
   font-weight: 900;
 }
 
 h2 {
-   font-family: var(--heading-font-family);
-   font-size: 45px;
+  font-family: var(--heading-font-family);
+  font-size: 45px;
 }
 
 p {
-    font-family: var(--default-font-family);;
-    font-weight:900;
-    font-size: 28px;
-    color: grey;
+  font-family: var(--default-font-family);
+  font-weight: 900;
+  font-size: 28px;
+  color: grey;
 }
 
 .btn {
-    background-color: var(--primary-color);
-    border-style: solid;
-    border-color: var(--secondary-color);
-    font-family: var(--default-font-family);;
-    font-weight: 900;
+  background-color: var(--primary-color);
+  border-style: solid;
+  border-color: var(--secondary-color);
+  font-family: var(--default-font-family);
+  font-weight: 900;
 }
 
 .btn:hover {
-    background-color: var(--secondary-color);
-    color: var(--highlight-color);
+  background-color: var(--secondary-color);
+  color: var(--highlight-color);
 }
+
+h3 {
+  text-align: center;
+  font-family: var(--heading-font-family);
+  margin-top: 40px;
+}
+
+.project-intro {
+  font-size: 22px;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-box {
+  padding: 5px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  background-color: var(--primary-color);
+  text-align: center;
+  border-radius: 4px;
+  
+}
+
+.img-link {
+  padding: 5px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.img-link:hover {
+  transform: scale(1.1);
+  opacity: 60%;
+}
+
+h4 {
+  font-family: var(--heading-font-family);
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.description {
+  font-size: 18px;
+}
+
+hr {
+  color: var(--highlight-color);
+  border-top: 5px solid;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-evenly;
+  color: grey;
+  padding-bottom: 50px;
+}
+
+.icon {
+  font-size: 30px;
+  padding-top: 20px;
+  translate: 0 5px
+}
+
+
+
+.email, .ig {
+  text-decoration: none;
+  color: grey;
+}
+
+@media (max-width: 480px) 
+    {
+        .container-fluid {
+            max-width: 350px;
+            min-width: 350px;  
+        }
+        
+        p, .project-intro, .description {
+            font-size: 18px;
+        }
+
+        
+    }
