@@ -139,9 +139,16 @@ hr {
   translate: 0 5px
 }
 
+.katie-paragraphs {
+    font-size: 20px;
+}
+
+.headshot {
+    border-radius: 4px;
+}
 
 
-.email, .ig {
+.email, .ig, .phone {
   text-decoration: none;
   color: grey;
 }
@@ -153,9 +160,12 @@ hr {
             min-width: 350px;  
         }
         
-        p, .project-intro, .description {
+        p, .page-intro, .description {
             font-size: 18px;
         }
 
-        
+        .about-katie {
+            text-align: center;
+        }
+
     }
