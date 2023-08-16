@@ -6,7 +6,7 @@
   --default-font-family: "Josefin Sans", sans-serif;
 }
 
-.container-fluid {
+.container {
   max-width: 800px;
   min-width: 600px;
 }
@@ -23,9 +23,7 @@
   letter-spacing: 0.2cm;
 }
 
-.nav-link.active {
-  text-decoration: underline;
-}
+
 
 .nav-item {
   font-family: var(--default-font-family);
@@ -82,7 +80,7 @@ h3 {
   margin-top: 40px;
 }
 
-.project-intro {
+.page-intro {
   font-size: 22px;
   text-align: center;
 }
@@ -150,7 +148,7 @@ hr {
 
 @media (max-width: 480px) 
     {
-        .container-fluid {
+        .container {
             max-width: 350px;
             min-width: 350px;  
         }
