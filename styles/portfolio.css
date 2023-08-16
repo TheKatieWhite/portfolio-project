@@ -131,6 +131,7 @@ hr {
   justify-content: space-evenly;
   color: grey;
   padding-bottom: 50px;
+  font-family: var(--default-font-family);
 }
 
 .icon {
@@ -148,9 +149,17 @@ hr {
 }
 
 
-.email, .ig, .phone {
+.email, .ig, .phone, .pinterest, .twitter, .more-contact {
   text-decoration: none;
   color: grey;
+}
+
+.contact-list {
+    color: grey;
+    list-style: none;
+    text-align: center;
+    font-family: var(--default-font-family);
+     padding-bottom: 50px;
 }
 
 @media (max-width: 480px) 
