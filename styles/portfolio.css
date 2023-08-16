@@ -23,10 +23,21 @@
   letter-spacing: 0.2cm;
 }
 
-
+.KW-logo {
+  margin-right: 10px;
+}
 
 .nav-item {
   font-family: var(--default-font-family);
+}
+
+.nav-item:hover {
+  font-family: var(--heading-font-family);
+  transition: all 100ms ease-in-out;
+}
+
+.nav-link.active {
+  text-decoration: underline;
 }
 
 body {
@@ -97,7 +108,6 @@ h3 {
   background-color: var(--primary-color);
   text-align: center;
   border-radius: 4px;
-  
 }
 
 .img-link {
@@ -137,44 +147,51 @@ hr {
 .icon {
   font-size: 30px;
   padding-top: 20px;
-  translate: 0 5px
+  translate: 0 5px;
 }
 
 .katie-paragraphs {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .headshot {
-    border-radius: 4px;
+  border-radius: 4px;
 }
 
-
-.email, .ig, .phone, .pinterest, .twitter, .more-contact {
+.email,
+.ig,
+.phone,
+.pinterest,
+.twitter,
+.more-contact {
   text-decoration: none;
   color: grey;
 }
 
 .contact-list {
-    color: grey;
-    list-style: none;
-    text-align: center;
-    font-family: var(--default-font-family);
-     padding-bottom: 50px;
+  color: grey;
+  list-style: none;
+  text-align: center;
+  font-family: var(--default-font-family);
+  padding-bottom: 50px;
 }
 
-@media (max-width: 480px) 
-    {
-        .container {
-            max-width: 350px;
-            min-width: 350px;  
-        }
-        
-        p, .page-intro, .description {
-            font-size: 18px;
-        }
+@media (max-width: 480px) {
+  .container {
+    max-width: 350px;
+    min-width: 350px;
+  }
 
-        .about-katie {
-            text-align: center;
-        }
+  p,
+  .page-intro,
+  .description {
+    font-size: 18px;
+  }
 
-    }
+  .about-katie {
+    text-align: center;
+  }
+
+  
+
+}
