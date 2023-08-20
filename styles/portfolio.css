@@ -176,13 +176,24 @@ hr {
   padding-bottom: 50px;
 }
 
+.footer {
+    text-align: center;
+    font-family: var(--heading-font-family);
+    font-size: 14px;
+}
+.footer-link {
+    text-decoration: none;
+}
+
+.footer-link:visited {
+    color: black;
+}
+
 @media (max-width: 480px) {
   .container {
     max-width: 350px;
     min-width: 350px;
   }
-
-  
 
   p,
   .page-intro,
@@ -206,6 +217,11 @@ hr {
 .kw-logo-large {
     display: none;
 }
+
+.footer {
+    font-size: 12px;
+}
+
 
 
 }
