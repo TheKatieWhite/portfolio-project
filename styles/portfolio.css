@@ -134,6 +134,7 @@ h4 {
 hr {
   color: var(--highlight-color);
   border-top: 5px solid;
+  max-width: 800px;
 }
 
 .contact-info {
